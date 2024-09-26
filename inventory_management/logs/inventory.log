@@ -1,0 +1,29 @@
+2024-09-26 15:02:09,284 [INFO] django.utils.autoreload autoreload 36660 139793508038464: Watching for file changes with StatReloader
+2024-09-26 15:02:45,243 [INFO] django.utils.autoreload autoreload 36660 139793508038464: /home/aditya/Desktop/assignment/inventory_management/inventory/views.py changed, reloading.
+2024-09-26 15:02:46,024 [INFO] django.utils.autoreload autoreload 36703 140382869886784: Watching for file changes with StatReloader
+2024-09-26 15:04:45,600 [WARNING] django.request log 36703 140382726616832: Unauthorized: /api/items/5/
+2024-09-26 15:04:45,601 [WARNING] django.server basehttp 36703 140382726616832: "GET /api/items/5/ HTTP/1.1" 401 183
+2024-09-26 15:04:55,514 [INFO] django.server basehttp 36703 140382726616832: "POST /api/token/refresh/ HTTP/1.1" 200 241
+2024-09-26 15:05:09,472 [ERROR] inventory views 36703 140382726616832: Item with ID 5 not found.
+2024-09-26 15:05:09,473 [WARNING] django.request log 36703 140382726616832: Not Found: /api/items/5/
+2024-09-26 15:05:09,474 [WARNING] django.server basehttp 36703 140382726616832: "GET /api/items/5/ HTTP/1.1" 404 26
+2024-09-26 15:37:27,316 [INFO] django.utils.autoreload autoreload 37811 139767969851200: Watching for file changes with StatReloader
+2024-09-26 15:37:52,796 [INFO] django.utils.autoreload autoreload 37849 139967243003712: Watching for file changes with StatReloader
+2024-09-26 15:37:58,780 [INFO] django.server basehttp 37849 139967166965504: "POST /api/token/refresh/ HTTP/1.1" 200 241
+2024-09-26 15:38:13,427 [WARNING] django.request log 37849 139967166965504: Unauthorized: /api/items/5/
+2024-09-26 15:38:13,428 [WARNING] django.server basehttp 37849 139967166965504: "GET /api/items/5/ HTTP/1.1" 401 51
+2024-09-26 15:38:20,612 [WARNING] django.request log 37849 139967166965504: Unauthorized: /api/items/5/
+2024-09-26 15:38:20,614 [WARNING] django.server basehttp 37849 139967166965504: "GET /api/items/5/ HTTP/1.1" 401 51
+2024-09-26 15:38:26,188 [INFO] django.server basehttp 37849 139967166965504: "POST /api/register/ HTTP/1.1" 201 39
+2024-09-26 15:38:30,634 [INFO] django.server basehttp 37849 139967166965504: "POST /api/login/ HTTP/1.1" 200 483
+2024-09-26 15:38:41,683 [ERROR] inventory views 37849 139967166965504: Item with ID 5 not found.
+2024-09-26 15:38:41,684 [WARNING] django.request log 37849 139967166965504: Not Found: /api/items/5/
+2024-09-26 15:38:41,684 [WARNING] django.server basehttp 37849 139967166965504: "GET /api/items/5/ HTTP/1.1" 404 26
+2024-09-26 15:38:51,437 [WARNING] django.request log 37849 139967166965504: Unauthorized: /api/items/
+2024-09-26 15:38:51,437 [WARNING] django.server basehttp 37849 139967166965504: "POST /api/items/ HTTP/1.1" 401 183
+2024-09-26 15:38:58,292 [INFO] inventory views 37849 139967166965504: User aditya attempting to create an item.
+2024-09-26 15:38:58,395 [INFO] inventory views 37849 139967166965504: Item created successfully by user aditya.
+2024-09-26 15:38:58,397 [INFO] django.server basehttp 37849 139967166965504: "POST /api/items/ HTTP/1.1" 201 135
+2024-09-26 15:43:36,394 [INFO] django.utils.autoreload autoreload 38183 140693418723136: Watching for file changes with StatReloader
+2024-09-26 15:44:42,400 [INFO] django.utils.autoreload autoreload 38240 139863851513664: Watching for file changes with StatReloader
+2024-09-26 15:45:50,884 [INFO] django.utils.autoreload autoreload 38290 140306982016832: Watching for file changes with StatReloader
